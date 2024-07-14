@@ -1,1 +1,1 @@
-# PRODIGY_WD_05
+This is a Weather App. This app fetches weather data from API and displays thee information on the screen based on the user requested location. It displays current temperature along with other relevant information
