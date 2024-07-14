@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="search-box"><input type="text" placeholder="enter location" class="input-box">
+        <button id="searchBtn"><img src="assets/magnifying-glass_63975.png" alt=""></button>
+      </div>
+    </div>
+
+    <div class="location-not-found">
+      <h1>Sorry, No data available!!!</h1>
+      <img src="assets/404.png" alt="">
+    </div>
+
+    <div class="weather-body">
+      <img src="" alt="" class="weather-img">
+      <div class="weather-box">
+        <h2 class="current"></h2>
+        <p class="temperature"></p>
+        <p class="feels-like"></p>
+        <p class="range"></p>
+        <p class="description"></p>
+        
+      </div>
+
+      <div class="weather-details">
+
+      <div class="humidity">
+          <img src="assets/dewpoint_6853893.png" alt="">
+          <div class="text">
+            <span id="humidity"></span>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <img src="assets/wind_192756.png" alt="">
+          <div class="text">
+            <span id="wind-speed"></span>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="moreInfo">
+
+        <div class="sunrise">
+          <img src="assets/sunrise_136741.png" alt="">
+          <span class="Sunrise">Sunrise: </span>
+          <span id="sunrise"></span>
+        </div>
+
+        <div class="sunset">
+          <img src="assets/sunset_136742.png" alt="">
+          <span class="Sunset">Sunset:</span>
+          <span id="sunset"></span>
+        </div>
+
+        <div class="pressure">
+          <img src="assets/meter_180094.png" alt="">
+          <span class="Pressure">Pressure: </span>
+          <span id="pressure"></span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="weather.js"></script>
+</body>
+
+</html>
